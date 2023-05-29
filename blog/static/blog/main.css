@@ -1,24 +1,20 @@
-body {
-     /* background: linear-gradient(to bottom right,#002f4b, #dc4225); */
-    /* color: #333333;  */
-    background-color: rgb(56, 56, 56);    /* background: linear-gradient(to bottom right,#002f4b,#dc4225); */
+/* body {
+    background: linear-gradient(to bottom right,#002f4b,#dc4225);
     margin-top: 5rem;
     background-size: contain;
     background-repeat: no-repeat;
-  }
-
-
+  } */
   h1, h2, h3, h4, h5, h6, p {
     color: #444444;
     font-family: 'Poppins', sans-serif;
-  }
+  } */
 
   ul {
     margin: 0;
   }
 
   .bg-steel {
-    /* background-color: #1a1a1a; */
+    background-color: #473d3d;
     background: linear-gradient(270deg,  rgb(49, 0, 33) 0%, rgb(46, 0, 119) 100%);
 
   }
@@ -28,7 +24,7 @@ body {
   }
 
   .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
+    color: #e0d3d3;
   }
 
   .site-header .navbar-nav .nav-link.active {
@@ -36,7 +32,7 @@ body {
   }
 
   .content-section {
-    background: #ffffff;
+    background: #805e5e;
     /* border-radius: 20px; */
     padding: 10px 20px;
     /* border: 1px solid #dddddd; */
@@ -44,9 +40,9 @@ body {
     margin-bottom: 20px;
   }
 
-  .article-title {
+   .article-title {
     color: #444444;
-  }
+  } 
 
   a.article-title:hover {
     color: #9900ff;
@@ -68,7 +64,7 @@ body {
     padding-bottom: 1px;
     margin-bottom: 4px;
     font-size: 13px;
-    border-bottom: 1px solid #e3e3e3
+    border-bottom: 1px solid #a84a4a
   }
 
   .article-metadata a:hover {
@@ -214,14 +210,15 @@ body {
 }
 
 .cardd{
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.849);
+    box-shadow: 0 4px 18px 0 rgba(61, 147, 205, 0.849);
     max-width: 700px;
+    color: rgb(107, 123, 204);
     margin: auto;
     text-align: center;
     border-radius: 30px;
   }
   #profile-h1{
-      color: rgb(255, 255, 255);
+      color: rgb(111, 121, 170);
       font-family: 'Poppins', sans-serif;
 
   }
@@ -247,7 +244,7 @@ body {
     background: linear-gradient(270deg, rgb(247, 0, 255) 0%, rgb(98, 0, 255) 100%);
   }
 
-  /* a {
+  a {
     text-decoration: none;
     font-size: 22px;
     color: black;
@@ -256,7 +253,7 @@ body {
   button:hover, a:hover {
     opacity: 0.7;
     background-color: rgb(3, 1, 5);
-  } */
+  } 
 
   #profile-img{
     margin-top: 20px;
